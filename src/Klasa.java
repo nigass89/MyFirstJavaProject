@@ -1,3 +1,5 @@
+import java.math.BigInteger;
+
 public class Klasa {
     /*
     *Ta metoda wyświetla
@@ -51,7 +53,7 @@ public class Klasa {
 
         //int rezultat = 2 + 2 * 4 - 3/10;
         //System.out.println(rezultat);
-
+        /*
         int a =10;
         int b = 5;
         int c = 4;
@@ -67,5 +69,106 @@ public class Klasa {
         System.out.println(c);
         System.out.println(d);
         System.out.println(e);
+        */
+
+        //boolean a = 4 > 1;
+        //System.out.println(a);
+
+        //boolean a = (3 > 5) || (9 > 10) || (10 > 5);
+        //System.out.println(a);
+
+        //int a = 3;
+        //int b = 10;
+        //System.out.println(a != b);
+
+        //warunek ? rezultat1 : rezultat2;
+
+        //String tekst = 10 > 15 ? "Więcej" : "Mniej";
+        //System.out.println(tekst);
+
+        /*
+        String tekst;
+        if (15 > 10){
+            tekst = "Więcej";
+        }
+        else{
+            tekst = "Mniej";
+        }
+        System.out.println(tekst);
+        */
+        /*
+        String tekst;
+        if (15 == 10){
+            tekst = "Równy";
+        }
+        else if (15 > 20 ){
+            tekst = "Większy";
+        }
+        else {
+            tekst = "Mniejszy";
+        }
+        System.out.println(tekst);
+        */
+        /*
+        int liczba = 20;
+        if (liczba >= 0 && liczba <= 100){
+            System.out.println("Liczba mieści się w przedziale od 0 do 100.");
+            if (liczba > 20) {
+                System.out.println("Liczba jest większa od 20.");
+            }
+            else if (liczba < 20){
+                System.out.println("Liczba jest mniejsza od 20.");
+            }
+            else{
+                System.out.println("Liczba jest równa od 20.");
+            }
+        }
+        else{
+            System.out.println("Liczba nie mieści się w przedziale od 0 do 100.");
+        }
+        */
+        /*
+        int liczba = 40;
+        switch(liczba){
+            case 30:{
+                int a;
+                System.out.println("liczba to 30");
+                break;}
+            case 40:
+                int a;
+                System.out.println("Liczba to 40");
+                return;
+            case 50:
+            case 60:
+                System.out.println("Liczba to 50 lub 60");
+                break;
+            default:
+                System.out.println("Liczba to nie 30, 40, 50 lub 60");
+                break;
+        }
+        System.out.println("koniec");
+        */
+        /*
+        double a = 4;
+        double b = 2;
+        double c = -32.5;
+        double d = 4.7;
+        long result = Math.round(d);
+        Math.ceil();
+        Math.floor();
+
+        System.out.println(result);
+        */
+
+        BigInteger a = BigInteger.valueOf(10000);
+        BigInteger b = BigInteger.valueOf(5000);
+        BigInteger c = a.add(b);
+        BigInteger d = a.multiply(b);
+        BigInteger e = a.divide(b);
+        BigInteger f = a.subtract(b);
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(e);
+        System.out.println(f);
     }
 }
