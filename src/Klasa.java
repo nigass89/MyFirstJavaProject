@@ -1,4 +1,5 @@
-import java.math.BigInteger;
+import java.util.Arrays;
+import java.util.List;
 
 public class Klasa {
     /*
@@ -159,7 +160,7 @@ public class Klasa {
 
         System.out.println(result);
         */
-
+        /*
         BigInteger a = BigInteger.valueOf(10000);
         BigInteger b = BigInteger.valueOf(5000);
         BigInteger c = a.add(b);
@@ -170,5 +171,38 @@ public class Klasa {
         System.out.println(d);
         System.out.println(e);
         System.out.println(f);
+        */
+
+
+        /*
+        int a = 10;
+        int b = 5;
+        do{
+            System.out.println("!");
+            b++;
+        } while (a > b)
+        while (a > b){
+            System.out.println("!");
+            b++;
+        }
+        */
+        //while(true);
+        /*
+        for(int index = 0;index<10;index ++){
+            System.out.println(index + "!");
+        }
+        */
+        /*
+        List<String> lista = Arrays.asList("a", "b", "c");
+        for(int index = 10; index > 0;index--){
+            System.out.println(index + "!");
+        }
+
+        */
+
+        List<String> lista = Arrays.asList("a", "b", "c");
+        for (String string : lista){
+            System.out.println(string);
+        }
     }
 }
